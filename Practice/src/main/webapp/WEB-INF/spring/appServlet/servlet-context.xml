@@ -21,6 +21,7 @@
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
+	<!-- 어노테이션이 붙은것을 자동으로 검색하여 빈으로 등록하기위한 코드 -->
 	<context:component-scan base-package="com.winbit.pr" />
 	
 	

@@ -9,18 +9,19 @@
 	<version>1.0.0-BUILD-SNAPSHOT</version>
 	<properties>
 		<!-- 
-			1. java-version과 org.springframework-version 변경
+			1-1 java-version과 org.springframework-version 변경
 			
 				java-version : 1.6 => 11
 				org.springframework-version : 3.1.1.RELEASE => [최신버전]
 
-		<org.springframework-version 최신버전 찾기>
-			방법 1. 구글에 spring 검색 -> spring Home 들어가기
-			   -> projects 탭 중 Spring Framework 클릭 
-			   -> Documentation에서 CURRENT(+GA=정식버전) 를 찾아 현재 버전 찾기
-
-			방법 2.  maven repository 사이트에서 spring 검색 
-			   ->  spring Context/Core/Web 아무곳에 들어가서 현재 최신버전(맨 상단) 확인
+			1-2  <org.springframework-version 최신버전 찾기>
+			
+				방법 1. 구글에 spring 검색 -> spring Home 들어가기
+				   -> projects 탭 중 Spring Framework 클릭 
+				   -> Documentation에서 CURRENT(+GA=정식버전) 를 찾아 현재 버전 찾기
+	
+				방법 2.  maven repository 사이트에서 spring 검색 
+				   ->  spring Context/Core/Web 아무곳에 들어가서 현재 최신버전(맨 상단) 확인
 		 -->
 		<java-version>11</java-version>
 		<org.springframework-version>5.3.14</org.springframework-version>
